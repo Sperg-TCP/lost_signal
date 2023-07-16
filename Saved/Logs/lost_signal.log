@@ -2166,3 +2166,142 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.16-18.59.27:841][872]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/RTS/Level/Maps/TopDownMap' took 0.008
 [2023.07.16-19.03.21:316][785]SourceControl: Source control is disabled
 [2023.07.16-19.03.21:316][785]LogSlate: Window 'Source Control Login' being destroyed
+[2023.07.16-19.08.40:820][234]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.16-19.08.40:831][234]LogContentBundle: [Container: TopDownMap] Generating Streaming for 0 Content Bundles.
+[2023.07.16-19.08.40:833][234]LogWorldPartition: Display: GenerateStreaming started...
+[2023.07.16-19.08.40:834][234]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.07.16-19.08.40:834][234]LogWorldPartition: Display: GetPartitionedActors took 13 us
+[2023.07.16-19.08.40:835][234]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2023.07.16-19.08.40:839][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.16-19.08.40:840][234]PIE: New page: PIE session: TopDownMap (Jul 16, 2023, 9:08:40 AM)
+[2023.07.16-19.08.40:852][234]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.07.16-19.08.40:854][234]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.07.16-19.08.40:855][234]LogPlayLevel: Creating play world package: /Game/RTS/Level/Maps/UEDPIE_0_TopDownMap
+[2023.07.16-19.08.40:863][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007906s)
+[2023.07.16-19.08.40:863][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS/Level/Maps/TopDownMap.TopDownMap to /Game/RTS/Level/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.008449s)
+[2023.07.16-19.08.40:865][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.16-19.08.40:865][234]LogAIModule: Creating AISystem for world TopDownMap
+[2023.07.16-19.08.40:865][234]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.07.16-19.08.40:865][234]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.07.16-19.08.40:865][234]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.07.16-19.08.40:867][234]LogContentBundle: [Container: TopDownMap] Creating new contrainer.
+[2023.07.16-19.08.40:867][234]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 76 ms)
+[2023.07.16-19.08.40:867][234]LogPlayLevel: PIE: World Init took: (0.003229s)
+[2023.07.16-19.08.40:874][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.07.16-19.08.40:877][234]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.07.16-19.08.40:877][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.16-19.08.40:877][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.16-19.08.40:877][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.16-19.08.40:877][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.16-19.08.40:877][234]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.16-19.08.40:877][234]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.16-19.08.40:877][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.16-19.08.40:877][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.16-19.08.40:878][234]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.16-19.08.40:878][234]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.16-19.08.40:878][234]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.16-19.08.40:881][234]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.16-19.08.40:912][234]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2023.07.16-19.08.40:913][234]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.16-19.08.40:913][234]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.16-19.08.40:913][234]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.16-19.08.40:914][234]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.07.16-19.08.40:914][234]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.07.16-19.08.40:916][234]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.07.16-19.08.40:916][234]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.07.16-19.08.40:916][234]LogInit: FAudioDevice initialized.
+[2023.07.16-19.08.40:916][234]LogAudio: Display: Audio Device (ID: 2) registered with world 'TopDownMap'.
+[2023.07.16-19.08.40:929][234]LogLoad: Game class is 'RTS_GameModeBase_BP_C'
+[2023.07.16-19.08.40:930][234]LogWorld: Bringing World /Game/RTS/Level/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.07.16-14.08.40
+[2023.07.16-19.08.40:931][234]LogWorld: Bringing up level for play took: 0.002312
+[2023.07.16-19.08.40:934][234]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.07.16-19.08.40:967][234]LogWorldPartition: New Streaming Source: RTS_PlayerController_BP_C_0 -> Position: X=549.029 Y=1373.475 Z=46.063
+[2023.07.16-19.08.40:971][234]PIE: Server logged in
+[2023.07.16-19.08.40:972][234]PIE: Play in editor total start time 0.142 seconds.
+[2023.07.16-19.09.17:128][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.16-19.09.17:128][459]LogWorld: BeginTearingDown for /Game/RTS/Level/Maps/UEDPIE_0_TopDownMap
+[2023.07.16-19.09.17:130][459]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.16-19.09.17:131][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.16-19.09.17:131][459]LogContentBundle: [Container: TopDownMap] Deleting container.
+[2023.07.16-19.09.17:137][459]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.16-19.09.17:140][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.16-19.09.17:147][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.16-19.09.17:150][459]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.07.16-19.09.17:152][459]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.07.16-19.09.17:165][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.07.16-19.09.17:203][460]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.07.16-19.11.39:931][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.07.16-19.11.39:932][839]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/RTS/Level/Maps/TopDownMap' took 0.011
+[2023.07.16-19.14.45:457][514]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/RTS/Units/RTS_UnitMaster.RTS_UnitMaster
+[2023.07.16-19.14.45:462][514]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.16-19.14.47:005][514]LogStaticMesh: Display: Building static mesh PhAT_FloorBox...
+[2023.07.16-19.14.47:007][514]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2023.07.16-19.14.47:127][514]LogSlate: Took 0.001162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.07.16-19.14.48:536][597]LogShaderCompilers: Display: ================================================
+[2023.07.16-19.14.48:536][597]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Total job queries 6880, among them cache hits 10 (0.15%)
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Tracking 6861 distinct input hashes that result in 4864 distinct outputs (70.89%)
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: RAM used: 41.82 MB (0.04 GB) of 1638.40 MB (1.60 GB) budget. Usage: 2.55%
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Shaders Compiled: 6861
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Jobs assigned 6869, completed 6861 (99.88%)
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Average time worker was idle: 538.42 s
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Time job spent in pending queue: average 175.08 s, longest 376.48 s
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Job execution time: average 4.57 s, max 42.01 s
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Job life time (pending + execution): average 179.86 s, max 379.20
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 464.52 s
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Jobs were issued in 1159 batches (only local compilation was used), average 5.93 jobs/batch
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Average processing rate: 14.77 jobs/sec
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Total thread time: 3424.00 s
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Total thread preprocess time: 190.08 s
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Percentage time preprocessing: 5.55%
+[2023.07.16-19.14.48:537][597]LogShaderCompilers: Display: Effective parallelization: 7.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 16.75 sec, max 39.70 sec, min 2.42 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.13 sec, max 7.16 sec, min 4.26 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 5.31 sec, max 8.84 sec, min 2.18 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.20 sec, max 4.18 sec, min 1.27 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 1.93 sec, max 2.32 sec, min 1.62 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.45% of total time (compiled  150 times, average 1.93 sec, max 2.32 sec, min 1.62 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 2.93% of total time (compiled    6 times, average 16.75 sec, max 39.70 sec, min 2.42 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                                                   FTonemapCS - 2.93% of total time (compiled  420 times, average 0.24 sec, max 0.29 sec, min 0.20 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 2.74% of total time (compiled  256 times, average 0.37 sec, max 0.56 sec, min 0.27 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 2.51% of total time (compiled  128 times, average 0.67 sec, max 0.99 sec, min 0.42 sec)
+[2023.07.16-19.14.48:541][597]LogShaderCompilers: Display: ================================================
+[2023.07.16-19.15.05:801][530]LogViewport: Scene viewport resized to 1141x877, mode Windowed.
+[2023.07.16-19.16.07:436][269]BlueprintLog: New page: Compile RTS_UnitMaster
+[2023.07.16-19.16.07:516][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.07.16-19.16.07:545][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.16-19.16.07:705][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS/Units/RTS_UnitMaster" FILE="C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset" SILENT=true
+[2023.07.16-19.16.07:740][269]LogSavePackage: Moving output files for package: /Game/RTS/Units/RTS_UnitMaster
+[2023.07.16-19.16.07:741][269]LogSavePackage: Moving 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Saved/RTS_UnitMasterBE625D294D38508095A3AABB3BF42E6D.tmp' to 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset'
+[2023.07.16-19.16.07:753][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 1.39 sec)
+[2023.07.16-19.16.07:759][269]AssetCheck: New page: Asset Save: RTS_UnitMaster
+[2023.07.16-19.16.07:759][269]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RTS/Units/RTS_UnitMaster.RTS_UnitMaster
+[2023.07.16-19.16.09:376][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.16-19.16.09:449][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS/Units/RTS_UnitMaster" FILE="C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset" SILENT=true
+[2023.07.16-19.16.09:478][408]LogSavePackage: Moving output files for package: /Game/RTS/Units/RTS_UnitMaster
+[2023.07.16-19.16.09:479][408]LogSavePackage: Moving 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Saved/RTS_UnitMaster974A60D54929897C3D176CB9B9F763F9.tmp' to 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset'
+[2023.07.16-19.16.09:491][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 1.51 sec)
+[2023.07.16-19.16.09:498][408]AssetCheck: New page: Asset Save: RTS_UnitMaster
+[2023.07.16-19.16.09:498][408]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RTS/Units/RTS_UnitMaster.RTS_UnitMaster
+[2023.07.16-19.16.15:764][ 85]BlueprintLog: New page: Compile RTS_UnitMaster
+[2023.07.16-19.16.15:837][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.07.16-19.16.15:865][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.16-19.16.15:944][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS/Units/RTS_UnitMaster" FILE="C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset" SILENT=true
+[2023.07.16-19.16.15:973][ 85]LogSavePackage: Moving output files for package: /Game/RTS/Units/RTS_UnitMaster
+[2023.07.16-19.16.15:974][ 85]LogSavePackage: Moving 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Saved/RTS_UnitMasterB1412E8540405957F0DC4F90D2F3E93C.tmp' to 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset'
+[2023.07.16-19.16.15:985][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 1.63 sec)
+[2023.07.16-19.16.15:991][ 85]AssetCheck: New page: Asset Save: RTS_UnitMaster
+[2023.07.16-19.16.15:991][ 85]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RTS/Units/RTS_UnitMaster.RTS_UnitMaster
+[2023.07.16-19.16.16:932][171]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.16-19.16.17:001][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS/Units/RTS_UnitMaster" FILE="C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset" SILENT=true
+[2023.07.16-19.16.17:031][171]LogSavePackage: Moving output files for package: /Game/RTS/Units/RTS_UnitMaster
+[2023.07.16-19.16.17:031][171]LogSavePackage: Moving 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Saved/RTS_UnitMaster610A184F4AA2B74302A29A99F022A482.tmp' to 'C:/Users/elect/Documents/Unreal Projects/lost_signal/Content/RTS/Units/RTS_UnitMaster.uasset'
+[2023.07.16-19.16.17:043][171]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 1.74 sec)
+[2023.07.16-19.16.17:050][171]AssetCheck: New page: Asset Save: RTS_UnitMaster
+[2023.07.16-19.16.17:050][171]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RTS/Units/RTS_UnitMaster.RTS_UnitMaster
+[2023.07.16-19.16.19:197][386]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.07.16-19.16.19:197][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.16-19.16.21:545][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
