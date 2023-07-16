@@ -1,0 +1,18 @@
+Begin Object Class=/Script/Engine.StaticMeshActor Name="StaticMeshActor_59"
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'"/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0"'
+   End Object
+   Begin Object Name="StaticMeshComponent0"
+      StaticMesh=/Script/Engine.StaticMesh'"/Game/LevelPrototyping/Meshes/SM_ChamferCube.SM_ChamferCube"'
+      bUseDefaultCollision=False
+      StaticMeshDerivedDataKey="STATICMESH_24983DE8033B49EE8B6566C299172A6C_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_490113CF$2d8BCC$2d4B89$2dA2AF$2d5862CFA10CB8_CONSTRAINED_LWC_90000000000000080000000000000000088DD4CCD744138ACA21E8E14B25F7210000000000100000001000000000000000100000001000000000000000000000001000000010000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+      BodyInstance=(ObjectType=ECC_PhysicsBody,CollisionProfileName="PhysicsActor",MassInKgOverride=35.000000,LinearDamping=0.100000,AngularDamping=1.000000,MaxAngularVelocity=3599.999756,bSimulatePhysics=True,bOverrideMass=True)
+      RelativeLocation=(X=777.459727,Y=2595.406565,Z=50.062599)
+      RelativeRotation=(Pitch=0.000000,Yaw=49.999999,Roll=0.000000)
+      Mobility=Movable
+      bCanEverAffectNavigation=False
+   End Object
+   StaticMeshComponent="StaticMeshComponent0"
+   bCanBeDamaged=True
+   RootComponent="StaticMeshComponent0"
+   ActorLabel="SM_ChamferCube4"
+End Object
